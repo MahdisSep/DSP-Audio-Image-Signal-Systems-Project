@@ -2,7 +2,7 @@
 
 ## 🌟 Project Overview
 
-This module is dedicated to **Image Processing** using **Two-Dimensional Convolution (2D Convolution)**. The primary task was to implement a custom, generalized 2D convolution function and apply various standard filtering kernels (فیلترهای هسته‌ای) to an input image to achieve effects like **Edge Detection (آشکارسازی لبه)**، **Sharpening (تیز کردن)**، and **Blurring (محو کردن)**.
+This module is dedicated to **Image Processing** using **Two-Dimensional Convolution (2D Convolution)**. The primary task was to implement a custom, generalized 2D convolution function and apply various standard filtering kernels to an input image to achieve effects like **Edge Detection**، **Sharpening**، and **Blurring**.
 
 The project demonstrates a deep understanding of how LTI systems (Linear Time-Invariant Systems) function in the spatial domain to modify visual information.
 
@@ -16,7 +16,7 @@ A custom function `conv2D` was created to perform the core filtering operation w
     ```matlab
     function [feature_map] = conv2D(img, filters, stride, padding)
     ```
-  * **Core Logic:** Implements nested loops to iterate over all dimensions of the image (ارتفاع، عرض، کانال‌های رنگ) و فیلتر (ارتفاع فیلتر، عرض فیلتر، تعداد کانال).
+  * **Core Logic:** Implements nested loops to iterate over all dimensions of the image.
   * **Padding Support:** Correctly handles the `'same'` padding mode, ensuring the output feature map has the same dimensions as the input image by zero-padding the borders based on the filter size $f$ (where $p = (f-1)/2$).
   * **Multi-Channel Support:** Allows filtering of RGB images by applying the filter across all color channels (C) and summing the results for each output pixel.
   * **Stride Support:** Implements the `stride` parameter to control the step size of the filter window.
@@ -28,7 +28,7 @@ This script defines three sets of filters (Layer 1, Layer 2, Layer 3) and applie
 #### 🔸 Layer 1 Kernels (3x3 - Fine Details)
 
   * **Bottom Sobel & Top Sobel:** Edge detection filters that highlight horizontal gradients.
-  * **Sharpening:** A filter that enhances high-frequency details (لبه‌ها) to make the image appear sharper.
+  * **Sharpening:** A filter that enhances high-frequency details to make the image appear sharper.
   * **Weighted Averaging (3x3):** A basic blurring filter using a weighted kernel.
 
 #### 🔹 Layer 2 Kernels (2x2 - Efficiency and Simplicity)
@@ -38,7 +38,7 @@ This script defines three sets of filters (Layer 1, Layer 2, Layer 3) and applie
 
 #### 🔸 Layer 3 Kernels (5x5 - Smoothing and Blurring)
 
-  * **Gaussian (5x5):** A smoothing filter that removes Gaussian noise by calculating a weighted average based on the Gaussian distribution (توزیع گاوسی).
+  * **Gaussian (5x5):** A smoothing filter that removes Gaussian noise by calculating a weighted average based on the Gaussian distribution.
   * **Averaging (5x5):** A larger box blur for stronger smoothing.
 
 ### 3\. Visualization and Data Handling
