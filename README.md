@@ -12,6 +12,18 @@ This project is the culmination of the Signals and Systems course, applying fund
 | **Denoising** | Ideal **Low-Pass Filter** (LPF) in the Frequency Domain | Custom filter creation (zeroing out high frequencies), `ifft` |
 | **Tempo Change** | Speed modification by adjusting the **Sampling Rate** | `audiowrite` with manipulated `rate` |
 
+## results 
+
+![images](https://github.com/MahdisSep/CV-Fundamentals-Mini-Projects/blob/main/calculate_area/chale.png)
+![images](https://github.com/MahdisSep/CV-Fundamentals-Mini-Projects/blob/main/detect%20skin/initial2/initial/skin%20Detected/image_one.png)
+![images](https://github.com/MahdisSep/CV-Fundamentals-Mini-Projects/blob/main/detect%20skin/initial2/initial/skin%20Detected/image_three.png)
+![images](https://github.com/MahdisSep/CV-Fundamentals-Mini-Projects/blob/main/tic_tac_toe/initial/Data/O%20Wins.png)
+![images](https://github.com/MahdisSep/CV-Fundamentals-Mini-Projects/blob/main/tic_tac_toe/initial/Data/X%20Wins.png)
+
+* you can see the output audio by clicking on these links:
+*
+-----
+
 ## 🧠 Module 2: Image Processing (Spatial Domain)
 
 **Objective:** Implementing and applying custom 2D convolution for various image filtering effects.
