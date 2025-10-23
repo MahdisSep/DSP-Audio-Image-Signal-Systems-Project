@@ -14,14 +14,14 @@ This project is the culmination of the Signals and Systems course, applying fund
 
 ## results 
 
-![images](https://github.com/MahdisSep/CV-Fundamentals-Mini-Projects/blob/main/calculate_area/chale.png)
-![images](https://github.com/MahdisSep/CV-Fundamentals-Mini-Projects/blob/main/detect%20skin/initial2/initial/skin%20Detected/image_one.png)
-![images](https://github.com/MahdisSep/CV-Fundamentals-Mini-Projects/blob/main/detect%20skin/initial2/initial/skin%20Detected/image_three.png)
-![images](https://github.com/MahdisSep/CV-Fundamentals-Mini-Projects/blob/main/tic_tac_toe/initial/Data/O%20Wins.png)
-![images](https://github.com/MahdisSep/CV-Fundamentals-Mini-Projects/blob/main/tic_tac_toe/initial/Data/X%20Wins.png)
+![images](https://github.com/MahdisSep/DSP-Audio-Image-Signal-Systems-Project/blob/main/Part_01_Audio_Processing/results/results1.png)
+![images](https://github.com/MahdisSep/DSP-Audio-Image-Signal-Systems-Project/blob/main/Part_01_Audio_Processing/results/results2.png)
 
 * you can see the output audio by clicking on these links:
-*
+* clean wave : [https://s28.picofile.com/file/8464785018/clean.wav.html]
+* fast wave : [https://s29.picofile.com/file/8464785068/fast.wav.html]
+* slow wave : [https://s28.picofile.com/file/8464785100/slow.wav.html]
+
 -----
 
 ## 🧠 Module 2: Image Processing (Spatial Domain)
@@ -34,6 +34,17 @@ This project is the culmination of the Signals and Systems course, applying fund
 | **Edge Detection** | Sobel and Robert filters for horizontal/vertical and diagonal gradient detection | Predefined Kernels |
 | **Sharpening** | High-pass style filtering using a **Sharpening Kernel** | Kernel implementation |
 | **Blurring/Smoothing** | **Gaussian** and **Averaging** filters for noise reduction and smoothing | 5x5 Kernels |
+
+## results 
+
+### layer1
+![images](https://github.com/MahdisSep/DSP-Audio-Image-Signal-Systems-Project/blob/main/Part_02_Image_Processing/results/results1.png)
+### layer2
+![images](https://github.com/MahdisSep/DSP-Audio-Image-Signal-Systems-Project/blob/main/Part_02_Image_Processing/results/results2.png)
+### layer3
+![images](https://github.com/MahdisSep/DSP-Audio-Image-Signal-Systems-Project/blob/main/Part_02_Image_Processing/results/results3.png)
+
+-----
 
 ## 🚀 Getting Started
 
